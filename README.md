@@ -1,6 +1,6 @@
 # User Directory App
 
-A Flutter mobile application that fetches and displays a list of users from a public API. This project demonstrates skills in state management (using Cubits), API integration, clean architecture, and UI development.
+A Flutter mobile application that fetches and displays a list of users from a public API. This project demonstrates skills in state management (using Bloc), API integration, clean architecture, and UI development.
 
 ## Features
 
