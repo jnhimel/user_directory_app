@@ -82,13 +82,6 @@ flutter pub get
 flutter run
 ```
 
-## Running Tests
-
-Run tests using the following command:
-```bash
-flutter test
-```
-
 ## Clean Architecture
 
 This project follows Clean Architecture principles with three main layers:
@@ -101,8 +94,7 @@ This project follows Clean Architecture principles with three main layers:
 
 State management is implemented using BLoC pattern with Cubits:
 
-- **UserListCubit:** Manages the state for the user list screen, handling pagination and search
-- **UserDetailsCubit:** Manages the state for the user details screen
+- **UserListBloc:** Manages the state for the user list screen, handling pagination and search
 
 ## API Integration
 
