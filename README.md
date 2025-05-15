@@ -88,11 +88,11 @@ This project follows Clean Architecture principles with three main layers:
 
 1. **Domain Layer:** Contains business logic, entities, and repository interfaces
 2. **Data Layer:** Implements repositories, contains data sources and models
-3. **Presentation Layer:** Contains UI components, Cubits for state management
+3. **Presentation Layer:** Contains UI components, Bloc for state management
 
 ## State Management
 
-State management is implemented using BLoC pattern with Cubits:
+State management is implemented using BLoC pattern:
 
 - **UserListBloc:** Manages the state for the user list screen, handling pagination and search
 
